@@ -1,0 +1,17 @@
+﻿using Gonity;
+
+public class #SCRIPTNAME#
+{
+    [ViewElement]
+    public MyView view;
+
+    [ViewOpened]
+    public void OnViewOpened()
+    {
+    }
+    
+    [ViewClosed]
+    public void OnViewClosed()
+    {
+    }
+}

@@ -1,0 +1,8 @@
+﻿using Gonity;
+
+public class #SCRIPTNAME# : ICommand<T>
+{
+    public void Execute(T param)
+    {
+    }
+}
