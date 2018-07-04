@@ -36,6 +36,14 @@ namespace Gonity
             _entities.Remove(entity);
         }
 
+        public void DestroyAllEntities()
+        {
+            while (_entities.Count > 0)
+            {
+                DestroyEntity(_entities[0]);
+            }
+        }
+
         public ListReadOnly<T> QueryTypes<T>() where T : ECSComponent
         {
             Type componentType = typeof(T);

@@ -6,6 +6,7 @@ namespace Gonity
     {
         Entity CreateEntity();
         void DestroyEntity(Entity entity);
+        void DestroyAllEntities();
         T QueryType<T>() where T : ECSComponent;
         ListReadOnly<T> QueryTypes<T>() where T : ECSComponent;
         Entity QueryEntity<T>() where T : ECSComponent;

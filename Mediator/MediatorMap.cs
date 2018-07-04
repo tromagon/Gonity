@@ -118,6 +118,11 @@ namespace Gonity
 
             _opened.Clear();
         }
+
+        public void ClearAll()
+        {
+            _items.Clear();
+        }
     }
 
     public class ViewElement : Attribute { }

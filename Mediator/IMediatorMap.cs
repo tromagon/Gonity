@@ -8,5 +8,6 @@ namespace Gonity
         void Open(object viewType, Argument arguments = null);
         void Close(object viewType);
         void CloseAll();
+        void ClearAll();
     }
 }

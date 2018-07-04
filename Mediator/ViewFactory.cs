@@ -38,5 +38,10 @@ namespace Gonity
             GameObject gameObject = (view as MonoBehaviour).gameObject;
             UnityEngine.Object.Destroy(gameObject);
         }
+
+        public void ClearAll()
+        {
+            _views.Clear();
+        }
     }
 }

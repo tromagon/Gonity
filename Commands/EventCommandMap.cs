@@ -49,7 +49,12 @@ namespace Gonity
             }
         }
 
-        public bool RegisterCommand(Enum eventType, ICoreCommand command)
+        public void ClearAll()
+        {
+            _commandMap.Clear();
+        }
+
+        private bool RegisterCommand(Enum eventType, ICoreCommand command)
         {
             bool newKey = false;
 
