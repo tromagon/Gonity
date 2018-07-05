@@ -1,11 +1,11 @@
 # What is Gonity?
 
 Gonity is a set of tools written in C# to quickly start new projects in Unity. These tools include: 
- - ECS (Entity Component System) framework
+ - ECS (Entity Component System) Framework
  - Inversion of Control / Dependency Injection
  - Event Handling
- - Support for Command pattern
- - Support for View Mediator pattern
+ - Support for Command Pattern
+ - Support for View Mediator Pattern
  - State Machine
  - Sequence
  - Utilities for Reflection
